@@ -1,0 +1,30 @@
+.gradient-bg{
+    background-image: url(../../../public/assets/img/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+}
+.collapseBorder{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #000  !important;
+}
+
+
+.collapseBorder .ant-collapse-content{
+    border-top: none !important;
+}
+
+
+.ant-radio-inner {
+ height: 20px !important;
+ width: 20px !important;
+ border: 2px solid #D6C086 !important;
+}
+
+.parentspace .cartspace-1{
+    border-bottom: 1px solid #000  !important;
+}

@@ -1,0 +1,57 @@
+.cardNopad>.ant-card-body{
+    padding: 0px !important;
+}
+.radiusbottom{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.borderbottom{
+    border-bottom: 2px solid #000;
+}
+
+.spacbtn .ant-space-item{
+    width: 100%;
+}
+
+.bg-shap{
+    background-image: url(../../../public/assets/img/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btngrp>span{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(214,192,134,1) 25%, rgba(255,255,255,1) 100%);;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dblk{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .dblk{
+        display: block;
+    }
+    .dnone{
+        display: none !important;
+    }
+    .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .my-5{
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .text-mbl-cen{
+        text-align: center;
+    }
+    .btngrp>span {
+        font-size: 14px;
+    }
+}

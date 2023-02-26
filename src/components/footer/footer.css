@@ -1,0 +1,24 @@
+.ulist{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.space-end-align{
+    justify-content: end;
+}
+
+.mxm-5{
+    margin-left: 3rem;
+}
+
+@media (max-width: 991px){
+    .space-end-align{
+        justify-content: center;
+    }
+    .rowcenter{
+        text-align: center;
+    }
+    .mxm-5{
+        margin-left: 0rem;
+    }
+}

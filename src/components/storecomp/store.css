@@ -1,0 +1,227 @@
+.cardnf{
+    background-image: url(../../../public/assets/img/bg-card.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* box-shadow: 0px 4px 26px -1px #716F6F; */
+    background-color: transparent !important;
+    border-radius: 12px;
+}
+
+.space-cs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mb-ant-0{
+    margin-bottom: 0px !important;
+}
+
+.btnnfs{
+    background-color: #000;
+    border: none;
+    border-radius: 12px;
+    color: #fff !important;
+    padding: 0 20px;
+}
+
+
+.pillcs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    box-shadow: inset 0px 1px 6px 0px #3e3c3c;
+    white-space: nowrap;
+}
+
+
+.btnnfs:hover{
+    background-color: #000;
+}
+
+.paginationcss{
+    margin: 20px;
+}
+
+.paginationcss>.ant-pagination>.ant-pagination-item-active {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.paginationcss>.ant-pagination>.ant-pagination-item-active a {
+    color: #fff !important;
+}
+
+.paginationcss>.ant-pagination>.ant-pagination-item{
+    min-width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    border: 1px solid  rgba(175, 132, 21, 1);
+    background-color: transparent;
+    border-radius: 8px !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.ant-pagination-prev {
+    display: none !important;
+}
+
+
+.paginationcss>.ant-pagination>.ant-pagination-next>.ant-pagination-item-link{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+.paginationcss>.ant-pagination>.ant-pagination-prev>.ant-pagination-item-link{
+    background-color: transparent !important;
+    border: none !important;
+    color:  #fff !important;
+}
+
+.spacbtn .ant-space-item{
+    width: 100%;
+}
+
+.goldbtn{
+    box-shadow: inset -1px 1px 10px 2px #3e3c3c;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    /* padding: 4px 50px !important; */
+}
+
+.slectradius>.ant-select-selector{
+    border-radius: 12px !important;
+}
+
+.blackline{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.drawercs .ant-drawer-body{
+    padding: 5px !important;
+}
+
+.drawercs .card{
+    padding: 0px 10px  !important;
+}
+
+
+
+.drawercs .ant-drawer-header-title{
+    flex-direction: row-reverse;
+    padding: 30px 10px 0px 10px;
+}
+
+.drawercs .ant-drawer-title{
+    font-weight: bold !important;
+    font-size: 21px !important;
+}
+
+.drawercs .ant-drawer-close{
+    font-weight: bold;
+    color: #000 !important;
+    margin-right: 0px !important;
+}
+
+
+@media (max-width: 991px){
+    .mblBorder{
+        border-bottom: 2px solid #000;
+    }
+    .mblnone{
+        display: none;
+    }
+    .goldbtn {
+        font-size: 1rem;
+        /* padding: 8px 16px !important; */
+    }
+    .commn-btn {
+        height: 35px !important;
+    }
+    .ant-avatar{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .gapmbl{
+        gap: 5px !important;
+    }
+
+    .cardby{
+        margin-bottom: 20px;
+    }
+    .cardby .ant-card-body{
+        padding: 8px !important;
+    }
+    .w-100mbl{
+        width: 98% !important;
+    }
+    .rowmbl{
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+    }
+    .drawercs .ant-drawer-content-wrapper{
+        width: 100% !important;
+        height: 85vh;
+        top: 5%;
+        border-radius: 12px;
+        padding: 10px;
+    }
+    .drawercs .ant-drawer-header-title {
+        flex-direction: row-reverse;
+        padding: 10px 10px 0px 10px;
+    }
+    .drawercs .ant-drawer-header{
+        padding: 0px !important;
+    }
+    .drawercs .ant-drawer-header-title>button>span{
+        border: 1px solid #000 !important;
+        border-radius: 12px !important;
+        padding: 4px !important;
+    }
+    .drawercs .ant-drawer-content{
+        border-radius: 12px;
+    }
+}
+
+
+@media (min-width: 992px ) and (max-width: 1199px){
+    .goldbtn {
+        /* padding: 4px 30px !important; */
+    }
+}
+
+.rowmbl::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.rowmbl::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+    height: 5px;
+    border-radius: 12px;
+}
+
+.rowmbl::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+    border-radius: 12px;
+}

@@ -1,0 +1,61 @@
+{
+  "name": "repla-bct",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.5",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "@tabler/icons-react": "^2.3.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.22.7",
+    "aos": "^3.0.0-beta.6",
+    "craco-less": "^2.0.0",
+    "mapbox-gl": "^2.12.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-coverflow": "^0.2.20",
+    "react-dom": "^18.2.0",
+    "react-google-autocomplete": "^2.7.1",
+    "react-image-gallery": "^1.2.11",
+    "react-map-gl": "^7.0.21",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^9.0.3",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

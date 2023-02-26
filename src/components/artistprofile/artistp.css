@@ -1,0 +1,73 @@
+.gradient-bg-1{
+    background-image: url(../../../public/assets/img/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+.cardsm .ant-card-body{
+    padding: 0px !important;
+}
+.overImageText{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.borderbm{
+    border-bottom: 1px solid #000;
+}
+
+.goldborder{
+    padding: 0px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(214,192,134,1) 0%, rgba(234,224,197,1) 35%, rgba(214,192,134,1) 100%);
+}
+
+[data-content]::before{
+    content: attr(data-content);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    width: 100%;
+    height: auto;
+    font-size: 9vw;
+    word-wrap: break-word;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 8rem;
+    font-weight: 600;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.tabbtn .ant-tabs-tab-btn{
+    width: 100%;
+}
+
+.spacheight{
+    height: 400px;
+    overflow-x: auto;
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    [data-content]::before{
+        line-height: 4rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1199px){
+    [data-content]::before{
+        line-height: 6rem;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .borderbm{
+        border: 0px solid transparent !important;
+    }
+}

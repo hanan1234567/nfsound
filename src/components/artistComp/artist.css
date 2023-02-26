@@ -1,0 +1,41 @@
+.overImageText{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.w-50s{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cardsm .ant-card-body{
+    padding: 0px !important;
+}
+
+.cardnw .ant-card-body{
+    padding: 12px !important;
+}
+
+.borderGold{
+    border: 1px solid #D7C189;
+}
+
+.spacfirst>.ant-space-item:nth-child(1){
+    width: 100%;
+}
+
+.descrp>h5{
+    width: 250px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+@media (max-width: 991px){
+    .w-50s{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

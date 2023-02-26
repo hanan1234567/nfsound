@@ -1,0 +1,101 @@
+.tabcrm .ant-tabs-ink-bar{
+    background-color: transparent !important;
+}
+
+.tabcrm>.ant-tabs-nav::before{
+    border-bottom: none !important;
+}
+
+.tabcss>.ant-tabs-nav>.ant-tabs-nav-wrap>.ant-tabs-nav-list{
+    width: 100%;
+}
+
+.tabcss>.ant-tabs-nav>.ant-tabs-nav-wrap>.ant-tabs-nav-list>.ant-tabs-tab{
+    width: 100%;
+    justify-content: center;
+} 
+
+.btn-width{
+    width: 180px;
+    white-space: nowrap;
+}
+
+.tabbr>.ant-tabs-nav{
+    border-bottom: 2px solid #000;
+}
+
+.w-200{
+    width: 200px;
+    white-space: normal;
+}
+
+.w-100px{
+    width: 100px;
+}
+
+/* .row-hover:hover{
+    background-image: url(../../../public/assets/img/bg-row-table.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.row-hover:hover td span{
+    color: #fff;
+} */
+
+.btnhover{
+    background-color: #000;
+}
+
+.colortext{
+    color: #fff !important;
+}
+
+/* .row-hover:hover .btnhover{
+    background-color: #fff;
+} */
+
+.row-hover:hover .btnhover .colortext{
+    color: #000 !important;
+}
+
+.bgchange{
+    background-image: url(../../../public/assets/img/bg-row-table.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.bgchange td span{
+    color: #fff !important;
+}
+
+.bgchange td .btnhover .colortext{
+    color: #000 !important;
+}
+
+
+
+.bgchange .actionbtn .iconwht{
+    color: #fff;
+}
+
+
+.bgchange .btnhover{
+    background-color: #fff;
+}
+
+@media (max-width: 991px){
+    .tableResponsive{
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+
+@media (max-width: 991px){
+    .tabcss .ant-tabs-nav .ant-tabs-nav-wrap{
+        overflow-x: auto;
+    }
+}

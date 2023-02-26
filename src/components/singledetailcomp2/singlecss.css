@@ -1,0 +1,27 @@
+.spacewidth{
+    width: 40% !important;
+    margin: 0 auto;
+}
+
+.spacewidth button{
+    width: 60px !important;
+    height: 40px !important;
+    padding: 0px 20px !important;
+}
+
+.spacewidth button:nth-child(1){
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.spacewidth button:last-child{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+@media (max-width:991px){
+    .spacewidth {
+        width: 60% !important;
+        margin: 0 auto;
+    }
+}

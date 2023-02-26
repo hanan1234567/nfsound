@@ -1,0 +1,164 @@
+.widthnav{
+    width: 98%;
+    margin: 0 auto;
+}
+.mainNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navbarand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+.navBar .menubar{
+    width: 100%;
+    transition: .5s all;
+}
+
+.navBar .menubar>ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+    align-items: center;
+    width: 100%;
+    transition: .5s all;
+}
+
+.navBar .menubar>ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s all;
+}
+
+.navBar .menubar>ul li a:hover{
+    opacity: 1;
+}
+
+.closemenu{
+    display: none;
+}
+
+.btnsmbleLog{
+    display: none;
+}
+
+.profilepic{
+    display: none;
+}
+
+.sizelogo{
+    width: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .sizelogo{
+        width: 70px;
+    }
+    .navBar .menubar{
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 991px){
+    
+    .hamburger{
+        display: block;
+    }
+    .navBar .menubar.hide{
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s all;
+        right: -100%;
+    }
+    .navBar .menubar.active{
+        opacity: 1;
+        visibility: visible;
+        right: 0%;
+        transition: .5s all;
+    }
+    .navBar .menubar{
+        height: 100vh;
+        position: fixed;
+        right: -100%;
+        width: 70%;
+        z-index: 111;
+        top: 0%;
+        background-color: #fff;
+        transition: .5s all;
+        padding: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+
+    .navBar .menubar>ul{
+        flex-direction: column;
+        padding-left: 0px;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    .navBar .menubar>ul li a{
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+    .navBar .menubar>ul li{
+        text-align: center;
+        display: block;
+        width: 100%;
+        transition: .4s all;
+        margin-bottom: 5px;
+        border-radius: 12px;
+    }
+    .navBar .menubar>ul li:hover{
+        background-color: #000;
+    }
+
+    .navBar .menubar>ul li:hover a{
+        color: #fff;
+    }
+    .hamburger{
+        display: block;
+    }
+    .widthnav{
+        width: 98%;
+    }
+    .btnsmbleLog{
+        position: absolute;
+        bottom: 0%;
+        width: 90%;
+        display: block;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+    .closemenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .profilepic{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 30%);
+        display: block;
+    }
+}
